@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>G.H Raisoni College of Engineering and Management</title>
+	<link rel = "icon" href = "logo.webp" type = "image/x-icon">
+	<style>
+
+body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #335f8b;
+			color: white;
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 18;
+			font-size: 48px;
+			font-weight: normal;
+		}
+		
+		nav {
+			background-color: #d9d9d9;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px;
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-size: 24px;
+			font-weight: bold;
+			padding: 10px;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		nav a:hover {
+			background-color: #333;
+			color: white;
+		}
+		
+		section {
+			margin: 50px auto;
+			max-width: 800px;
+			padding: 20px;
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		
+		h2 {
+			font-size: 36px;
+			font-weight: normal;
+			margin-bottom: 20px;
+		}
+		
+		h3 {
+			font-size: 24px;
+			font-weight: normal;
+			margin-bottom: 10px;
+		}
+		
+		p {
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		li {
+			margin-bottom: 10px;
+		}
+		
+		li a {
+			color: #004080;
+			text-decoration: none;
+			font-weight: bold;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		li a:hover {
+			color: #333;
+		}
+		
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+        .dropdown ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+        }
+
+        .dropdown:hover a {
+                display: block;
+        }
+		img{
+				height: 240px;
+				width: 400px;
+				margin-top: 20px;
+				margin-left: 50px;
+				margin-right: 20px;
+				box-shadow: #333;
+				border-style: solid;
+				z-index: 3;
+			}
+		.container{
+			display: flex;
+			justify-content: center;
+			height: 100vh;
+			align-items: center;
+			
+
+
+		    }	
+		.card {
+                 width: 90%;
+     max-width: 270x;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 4px 1px 124px -43px #000000;
+    transition: all 0.5s ease;
+    
+    background: linear-gradient(135deg, #F7CAC9, #6e8eca);
+
+    }
+		.container{
+				display: flex;
+		}	
+		.container img{
+			height: 500px;
+			height: 350px;
+			margin-left: 0px;
+			border-style: solid;
+			
+		}
+		.blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+			@keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+		.background-image{
+			background-image: url(logo.webp);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 100vh;
+			margin-top: 90px;
+			z-index: 1;
+			margin-left: 25%;
+			position: relative;
+			z-index: 1;
+			opacity: 0.3;
+			height: 110vh;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		.headerlogo{
+			display: flex;
+			align-items:center;
+			justify-content: space-around;
+
+		}
+		.headerlogo img{
+			border: none;
+			width: 100px;
+			aspect-ratio: 1;
+			height: 100px;
+			position: relative;
+			bottom: 10px;
+		}
+        .column {
+            float: left;
+            width: 40%;
+            margin-left: 100px;
+            
+          }
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            
+            width: 40%;
+          }
+          .under {
+            height: 80px;
+           background-color:  #058d88;
+          }
+          .post {
+            height: 80px;
+           background-color:  #058d88;
+          }
+         #u1:hover{
+           opacity: 0.8;
+          
+           
+         }
+         .btn {
+            border: none;
+            background-color: inherit;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            float: right;
+            display: inline-block;
+          }
+          
+         
+          .btn:hover {background: #eee;}
+          
+          .success {color: green;}
+          .info {color: dodgerblue;}
+          .warning {color: orange;}
+          .danger {color: red;}
+          .default {color: black;}
+		
+		
+		</style>
+</style>
+		
+</head>
+<body>
+
+	<header class="headerlogo">
+		<div><img src="logo.webp" alt=""></div>
+		<div>
+		<h1>G.H Raisoni College of Engineering and Management</h1>
+		<h5>An Autonomous Institute, Affiliated to Savitribai Phule Pune University
+			Approved by AICTE, New Delhi and Recognized By Govt. Of Maharashtra
+			NAAC A+ Accredited</h5></div>
+			<div><img src="logo2-removebg-preview.png" alt=""></div>
+	</header>
+	
+	<nav>
+		
+		
+        </select>
+        <a href="home.html">Home</a>
+       
+		<a href="Campus.html">Campus</a>
+		<a href="admission.html">Admission</a>
+		
+		<a href="StudentActivity.html">StudentActivity</a>
+		
+		<a href="About us.html">About us</a>
+		<a href="contactus.html">Contact us</a>
+	</nav>
+	
+	<div class="col-md-1"  style="background-color:rgb(119, 119, 130)"><marquee class="blink" direction="right"><a href="admission.html" style="color: rgb(11, 1, 3);">Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color: rgb(11, 1, 3)">Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color: rgb(11, 1, 3)">Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color: rgb(11, 1, 3)">Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color: rgb(11, 1, 3)" >Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color: rgb(11, 1, 3)">Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color: rgb(11, 1, 3)">Admission Are Opens..!</a> &nbsp;  &nbsp; <a href="admission.html" style="color:rgb(11, 1, 3)">Admission Are Opens..!</a> &nbsp;  &nbsp;</marquee></div>
+	
+	
+		
+	
+		
+	<img src="IMG20230331161353.jpg" alt="image not found" width="400px" height="240px">
+	<img src="IMG20230331162717.jpg" alt="image not found" width="400px" height="240px">
+	<img src="IMG20230331161616.jpg" alt="image not found" width="400px" height="240px">
+	<img src="IMG20230331155958.jpg" alt="image not found" width="400px" height="240px">
+	<img src="IMG20230331163404.jpg" alt="image not found" width="400px" height="240px">
+	<img src="IMG20230331160740.jpg" alt="image not found" width="400px" height="240px">
+	
+	
+	<p style="font-size: 20PX;font-family: _ngcontent-dfn-c42;background-color: aqua;border-style: solid;text-indent: 35%; margin: 40px;">
+
+		The G H Raisoni College of Engineering and Management is NAAC A+ accredited and affiliated to the Savitribai Phule University. It is an autonomous institute and is 
+		approved by the All India Council for Technical Education (AICTE).<br>
+		We at the G H Raisoni College of Engineering and Management, Wagholi, Pune imbibe and impart the same as an indispensable aspect of our education system.
+		<br >We disseminate quality education and continue to practice excellence as our core facet.</br>
+		<p  style="font-size: 20PX;font-family: _ngcontent-dfn-c42;background-color: aqua;border-style: solid;text-indent: 35%; margin: 30px;"> We harbor the finest amenities to ensure the best learning paradigm for our students of Engineering and Management 
+		The harboring of seamlessness - The lush green campus nestled at convenient distance from Railway station and airport lays testament to the seamlessness which we reflect.</br> The sprawling campus assures the conducive to academic pursuits including the class room studies and research.
+		The comfort we imitate- the ergonomic design reciprocated in every classroom is that perfect example of tranquility and comfort, with ample scope for development and growth.</P>
+		
+	</p>
+</div>
+	<div class="row">
+		<div class="column" style="background-color:rgb(233, 244, 244) " >
+		  <header class="under"><p  style="font-size: 40px;" >Undergraduate Courses</p>
+			</header>
+			<img src="under..jpg" id="u1">
+			<p><br><br>In order to be more effective and support our students, we have improved our learning resources by increasing our subscription levels (including access to academic journals) and by adding many more physical books in our libraries.</p>
+		<br>
+		<a href="https://raisoni.nopaperforms.com/rgi">
+			<button class="btn success">Apply Now....</button>
+			
+	</a>
+		</div>
+		<div class="column" style="background-color:rgb(233, 244, 244)">
+			<header class="post"><p style="font-size: 40px;">Postgraduate Courses</p>
+			</header>
+			<img src="post.jpg" id="u1">
+			<P><br><br>In order to be more effective and support our students, we have improved our learning resources by increasing our subscription levels (including access to academic journals) and by adding many more physical books in our libraries.</P>
+			<br>
+			<a href="https://raisoni.nopaperforms.com/rgi">
+				<button class="btn success" >Apply Now....</button>
+		</a>
+		</div>
+	  </div>
+<footer>
+	<div class="footer-col">
+		<h3>Facilities</h3>
+		<li>Smart Class Room  *Events  *Student Welfare  *Blogs</li>
+		
+					<li>Internship</li>
+						<li>MoUs</li>
+							<li>Anti-Ragging Cell</li>
+	</div>
+
+	
+
+	<div class="footer-col">
+		<h3>*Guides *Research *Experts *Managed </h3>
+		
+		
+	</div>
+
+	<div class="copyright">
+		
+		
+		<div class="pro-links">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+		</div>
+	</div>
+</footer>

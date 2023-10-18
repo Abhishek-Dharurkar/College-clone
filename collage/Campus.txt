@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>G.H Raisoni College of Engineering and Management</title>
+	<link rel = "icon" href = "logo.webp" type = "image/x-icon">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #335f8b;
+			color: white;
+			
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 18;
+			font-size: 48px;
+			font-weight: normal;
+		}
+		
+		nav {
+			background-color: #d9d9d9;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px;
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-size: 24px;
+			font-weight: bold;
+			padding: 10px;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		nav a:hover {
+			background-color: #333;
+			color: white;
+		}
+		
+		section {
+			margin: 50px auto;
+			max-width: 800px;
+			padding: 20px;
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		
+		h2 {
+			font-size: 36px;
+			font-weight: normal;
+			margin-bottom: 20px;
+		}
+		
+		h3 {
+			font-size: 24px;
+			font-weight: normal;
+			margin-bottom: 10px;
+		}
+		
+		p {
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		li {
+			margin-bottom: 10px;
+		}
+		
+		li a {
+			color: #004080;
+			text-decoration: none;
+			font-weight: bold;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		li a:hover {
+			color: #333;
+		}
+		
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+        .dropdown ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+        }
+
+        .dropdown:hover a {
+                display: block;
+        }
+		img{
+				height: 240px;
+				width: 400px;
+				margin-top: 20px;
+				margin-left: 50px;
+				margin-right: 20px;
+				border-style: inset;
+				z-index: 3;
+				
+				
+			}
+			
+		.container{
+			display: flex;
+			justify-content: center;
+			height: 100vh;
+			align-items: center;
+			
+
+
+		}	
+		
+		.container{
+				display: flex;
+				
+			
+		}	
+		.container img{
+			height: 500px;
+			height: 350px;
+			margin-left: 0px;
+			border-style: solid;
+			
+		}
+		.blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+			@keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+		
+		
+		#img15{
+			border: none;
+			aspect-ratio: 1;
+			width: 80px;
+		}
+		.headerlogo{
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+		}
+		.headerlogo img{
+			border: none;
+			width: 100px;
+			aspect-ratio: 1;
+			height: 100px;
+			position: relative;
+			bottom: 10px;
+		}
+		#video {
+
+				width: 300px;
+				height: 300px;
+				
+				margin-left: 0.5px;
+				margin-bottom: 5px;
+				
+		}
+		#video2{
+			width: 530px;
+				height: 530px;
+				
+		}
+		.container video{
+			background-color: rgb(245, 248, 251);
+			text-align: center;
+			
+		}
+		.videotext{
+			border: 2px solid;
+			
+  			text-align: center;
+		}
+		#videote{
+			font-size: 30px;
+			background-color: powderblue;
+			font-family: 'Courier New', Courier, monospace;
+			
+		}
+		#c11:hover{
+			
+			
+			opacity: 0.7;
+			}
+		#video2:hover{
+
+            transform: scale(1.2);
+        }
+		#infa{
+			text-align: center;
+			margin-top: 15x;
+			margin-bottom: 10px;
+			margin-left: 450px;
+			height: 100px;
+			font-size: 30px;
+  			width: 700px;
+			  font-family: 'Courier New', Courier, monospace;
+  			background-color: powderblue;
+		}
+		#name{
+				color: rgb(14, 71, 216);
+				font-size: 20px;
+				margin-left: 150px;
+				
+			}
+			.img1{
+
+				margin-left: 30px;
+			}
+			
+	</style>
+</head>
+<body>
+	<header class="headerlogo">
+		
+		<div><img src="logo.webp" alt=""></div>
+		<div>
+		<h1>G.H Raisoni College of Engineering and Management</h1>
+		<h5>An Autonomous Institute, Affiliated to Savitribai Phule Pune University
+			Approved by AICTE, New Delhi and Recognized By Govt. Of Maharashtra
+			NAAC A+ Accredited</h5></div>
+			<div><img src="logo2-removebg-preview.png" alt=""></div>
+	</header>
+	
+	<nav>
+		
+		
+        </select>
+        <a href="home.html">Home</a>
+        
+		<a href="Campus.html">Campus</a>
+		<a href="admission.html">Admission</a>
+	        <a href="StudentActivity.html">StudentActivity</a>
+		<a href="About us.html">About us</a>
+		<a href="contactus.html">Contact us</a>
+	</nav>
+	
+
+	<div class="videotext"><p id="infa">ALL ABOUT
+		 GHRCEM PUNE</p>
+		<p>&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;The G H Raisoni College of Engineering and Management is affiliated to the Savitribai Phule University. It is an autonomous institute and is approved by the All India Council for Technical Education (AICTE).
+
+			We at the G H Raisoni College of Engineering and Management, Wagholi, Pune imbibe and impart the same as an indispensable aspect of our education system. We disseminate quality education and continue to practice excellence as our core facet. We harbor the finest amenities to ensure the best learning paradigm for our students of Engineering and Management branch.</p>
+		
+		
+		</div>
+
+	<div class="container" id="videocontainer" >
+		
+				
+
+<video     id="video2" width="320" height="240" controls muted >
+	
+	<source src="VID20230331161924.mp4" type="video/mp4">
+	
+	Your browser does not support the video tag.
+  </video>
+  <video  id="video2" width="320" height="240" controls muted >
+	<source src="VID20230331162021.mp4" type="video/mp4">
+	
+	Your browser does not support the video tag.
+  </video>
+  <video  id="video2" width="320" height="240" controls muted >
+	<source src="VID20230331162518.mp4" type="video/mp4">
+	
+	Your browser does not support the video tag.
+  </video>
+  
+	</div>
+	<div class="videotext" id="infa"><p  id="videote">Facilities Infrastructure</p>
+	   
+	   </div>
+
+	<div class="img1" >
+
+		<img src="IMG20230331161337.jpg" id="c11"  >
+		
+		<img src="IMG20230331155515.jpg" id="c11" >
+		
+		<img src="IMG20230331155958.jpg" id="c11">
+		<img src="IMG20230331160101.jpg" id="c11">
+		<img src="IMG20230331160744.jpg" id="c11">
+		<img src="IMG20230331160350.jpg" id="c11">
+
+	</div>
+	 <footer>
+		<div class="footer-col">
+			<h3>Facilities</h3>
+			<li>Smart Class Room  *Events  *Student Welfare  *Blogs</li>
+            
+                        <li>Internship</li>
+                            <li>MoUs</li>
+                                <li>Anti-Ragging Cell</li>
+		</div>
+
+		
+
+		<div class="footer-col">
+			<h3>*Guides *Research *Experts *Managed </h3>
+			
+			
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2022 All rights reserved G.H Raisoni College of Engineering and Management .</a>
+			</p>
+            
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	 
